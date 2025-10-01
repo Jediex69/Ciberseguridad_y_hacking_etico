@@ -20,7 +20,7 @@ Este reto tipo CTF fue realizado en un **laboratorio controlado** para practicar
 
 
 
-📄 \[Informe completo en PDF](CTF01\_reto\_comandos\_linux.pdf)
+📄 [Informe completo en PDF](CTF01\_reto\_comandos\_linux.pdf)
 
 
 
