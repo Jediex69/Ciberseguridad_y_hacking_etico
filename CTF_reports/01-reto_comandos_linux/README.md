@@ -2,7 +2,8 @@
 
 
 
-Este reto tipo CTF fue realizado en un **laboratorio controlado** para practicar comandos Linux y escalada de privilegios entre usuarios.
+Este reto tipo CTF fue realizado en un **laboratorio controlado** para practicar comandos Linux, moverse entre distintos usuarios del sistema, comprender
+permisos de archivos, descifrar ficheros protegidos y obtener el acceso final al usuario objetivo.
 
 
 
