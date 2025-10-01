@@ -2,7 +2,7 @@
 
 
 
-Este reto tipo CTF fue realizado en un \*\*laboratorio controlado\*\* para practicar comandos Linux y escalada de privilegios entre usuarios.
+Este reto tipo CTF fue realizado en un **laboratorio controlado** para practicar comandos Linux y escalada de privilegios entre usuarios.
 
 
 
