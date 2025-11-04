@@ -1,4 +1,3 @@
-````{"id":"92746","variant":"standard","title":"README - CTF 02 Reto Python"}
 # CTF 02 — Reto Python
 
 **Autor:** Jesús Díaz  
@@ -16,8 +15,6 @@ Reto tipo *CTF* (laboratorio controlado) diseñado para practicar análisis de s
 
 ## Estructura del repositorio
 - `solucion_reto.pdf` — Informe completo del reto (paso a paso, evidencias y conclusiones).
-- `evidencias/` — Directorio con salidas y archivos recogidos (si procede).
-- `scripts/` — Copias de los `nivel*.py` analizados (si procede).
 - `README.md` — Este fichero.
 
 ---
@@ -44,51 +41,6 @@ Reto tipo *CTF* (laboratorio controlado) diseñado para practicar análisis de s
 | 8 | user8 → user9 | Lógica determinista dependiente de la hora | `N0tS0Rand0m!` |
 | 9 | user9 → user10 | Hex + reverse (encoded pass) | `ModifyPrivs&Win` |
 |10 | user10 → root | `user10` pertenece al grupo `sudo` → `sudo su` | *root shell* |
-
----
-
-## Cómo reproducir (resumen)
-> Ejecuta TODO esto **solo** en un laboratorio controlado.
-
-1. Conéctate al host de laboratorio:
-```bash
-ssh user1@10.0.3.9
-# password: St@rt1ng
-```
-
-2. En cada directorio `~/Documentos` de cada usuario:
-   - Leer el script (`cat nivelX.py`) y/o ejecutarlo (`python3 nivelX.py`) siguiendo las instrucciones del reto.
-   - Aplicar las técnicas descritas en el informe para extraer la contraseña del siguiente usuario.
-   - Cambiar de usuario con `su userN` y repetir.
-
-3. Para el nivel 6 (ejemplo práctico) crear un archivo con 999 999 líneas:
-```bash
-yes "you@example.com" | head -n 999999 > .registered_users.db
-python3 nivel6.py
-# introducir el email final y obtener la contraseña
-```
-
-4. En el último paso, `user10` tiene permisos `sudo`:
-```bash
-groups user10        # muestra 'sudo'
-sudo su              # introducir la contraseña de user10 → shell root
-```
-
----
-
-## Checklist mínimo de evidencias (para adjuntar al informe)
-Generar y guardar las salidas de los siguientes comandos (cada uno en su fichero con timestamp y hash SHA256):
-
-- `hostname`, `id`, `date`, `uname -a`, `/etc/os-release`  
-- `cat /etc/passwd`, extracto de `/etc/shadow` (solo root)  
-- `groups user10`, `sudo -l` (o `sudo -l -U user10`)  
-- Registro del paso de escalada (comando `sudo su` y `whoami`)  
-- Copia de los scripts `nivel1.py` ... `nivel9.py` analizados  
-- Salidas de `find / -perm /6000 -type f` (SUID/SGID)  
-- Logs relevantes: `/var/log/auth.log`, `/var/log/syslog` (extractos)  
-- Índice con hashes SHA256 de todos los ficheros de evidencia
-
-(Para un checklist completo y guía de comandos vea `solucion_reto.pdf`).
 
 ---
 
