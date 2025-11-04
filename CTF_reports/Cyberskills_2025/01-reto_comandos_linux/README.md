@@ -1,26 +1,26 @@
-\# CTF01 – Reto de Comandos Linux
+# CTF01 – Reto de Comandos Linux
 
 
 
-Este reto tipo CTF fue realizado en un \*\*laboratorio controlado\*\* para practicar comandos Linux y escalada de privilegios entre usuarios.
+Este reto tipo CTF fue realizado en un **laboratorio controlado** para practicar comandos Linux y escalada de privilegios entre usuarios.
 
 
 
-\## 📌 Objetivos
+## 📌 Objetivos
 
-\- Navegación en sistema de archivos y análisis de permisos.
+- Navegación en sistema de archivos y análisis de permisos.
 
-\- Cambio de usuarios mediante credenciales encontradas.
+- Cambio de usuarios mediante credenciales encontradas.
 
-\- Uso de `ccencrypt`/`ccdecrypt` para descifrar archivos.
+- Uso de `ccencrypt`/`ccdecrypt` para descifrar archivos.
 
-\- Ejecución de scripts bash con claves de descifrado.
+- Ejecución de scripts bash con claves de descifrado.
 
-\- Acceso al usuario final y obtención del flag.
+- Acceso al usuario final y obtención del flag.
 
 
 
-📄 \[Informe completo en PDF](CTF01\_reto\_comandos\_linux.pdf)
+📄 [Informe completo en PDF](CTF01\_reto\_comandos\_linux.pdf)
 
 
 
