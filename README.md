@@ -31,6 +31,3 @@ Documentar el progreso en el área de ciberseguridad ofensiva, facilitar la revi
 
 **Jesús Díaz**  
 [GitHub](https://github.com/Jediex69)
-
-
-¿Quieres que te cree también un README específico para la carpeta `Cyberskills_2025` con una tabla de retos, fechas y herramientas utilizadas? También puedo ayudarte a añadir insignias, enlaces a herramientas o una sección de próximos retos.
