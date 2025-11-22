@@ -118,5 +118,5 @@ Se probó el inicio de sesión con éxito en el sistema Linux. El sistema afecta
   * Se extrajeron credenciales válidas almacenadas en texto plano.
   * El sistema Linux objetivo no generó alertas ni bloqueos.
 
-[cite\_start]La explotación fue exitosa y pone de manifiesto la urgencia de aplicar medidas correctivas[cite: 297].
+La explotación fue exitosa y pone de manifiesto la urgencia de aplicar medidas correctivas.
 
