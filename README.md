@@ -10,7 +10,8 @@ Pentesting/
     └── Cyberskills_2025/
         ├── 01-reto_comandos_linux/
         ├── 02-reto_python/
-        └── 03-reto_redes/
+        ├── 03-reto_redes/
+        └── 04-reto_cripto/
 ```
 
 - **CTF_Reports**: Informes de retos tipo Capture The Flag (CTF).
