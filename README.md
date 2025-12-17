@@ -11,7 +11,8 @@ Pentesting/
         ├── 01-reto_comandos_linux/
         ├── 02-reto_python/
         ├── 03-reto_redes/
-        └── 04-reto_cripto/
+        ├── 04-reto_criptos/
+        └── 05-reto_infra/
 ```
 
 - **CTF_Reports**: Informes de retos tipo Capture The Flag (CTF).
