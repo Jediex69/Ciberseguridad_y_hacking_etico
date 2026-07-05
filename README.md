@@ -25,6 +25,18 @@ This repository aims to:
 
 ---
 
+# 📚 Available Laboratories
+
+| Category | Laboratory | Status |
+|----------|------------|--------|
+| 🚩 CTF | Cyberskills 2025 | ✅ |
+| 🌐 Web Security | DVWA SQL Injection | ✅ |
+| 🌐 Web Security | DVWA File Upload | 🔄 |
+| 🐧 Linux | Privilege Escalation | 🔄 |
+| 🪟 Windows | Privilege Escalation | ⏳ |
+
+---
+
 # 🛠 Areas Covered
 
 ## 🔍 Reconnaissance
